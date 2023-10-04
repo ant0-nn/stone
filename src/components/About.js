@@ -97,10 +97,10 @@ const About = () => {
                 <h3 className="about__fifth-block__title">ONYX</h3>
             </div>
             <div className="about__sixth-block">
-                <video className="about__sixth-block__first-video" controls>
+                <video className="about__sixth-block__first-video" controls poster={Icon19}>
                     <source src={Video1} type="video/mp4"/>
                 </video>
-                <video className="about__sixth-block__second-video" controls>
+                <video className="about__sixth-block__second-video" controls poster={Icon20}>
                     <source src={Video2} type="video/mp4"/>
                 </video>
             </div>

@@ -10,12 +10,18 @@ const Popup = ({active, setActive}) => {
                         <h2 className="popup__wrapper__title">Call us back</h2>
                         <div className="popup__wrapper__contact-block">
                             <label className="popup__wrapper__contact-block__label">Phone number:</label>
-                            <h3 className="popup__wrapper__contact-block__first-number" >+380674052765</h3>
-                            <h3 className="popup__wrapper__contact-block__second-number">+353852021263</h3>
+                            <a href="https://wa.me/380674052765" className="popup__wrapper__contact-block__first-number">
+                                +380674052765
+                            </a>
+                            <a href="https://wa.me/353852021263" className="popup__wrapper__contact-block__second-number">
+                                +353852021263
+                            </a>
                         </div>
                         <div className="popup__wrapper__info-block">
                             <h2 className="popup__wrapper__info">Or send us an email</h2>
-                            <h3 className="popup__wrapper__email">E-mail: pik.rud@gmail.com</h3>
+                            <a href="mailto:pik.rud@gmail.com" className="popup__wrapper__email">
+                                E-mail: pik.rud@gmail.com
+                            </a>
                         </div>
                     </div>
                     <img src={Icon99} alt="Icon99" className="popup__img"/>

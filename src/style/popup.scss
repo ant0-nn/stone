@@ -51,7 +51,7 @@
             align-items: center;
         }
         @media (max-width: 578px) { 
-            margin-top: 40px;
+            margin-top: 60px;
             margin-left: 0;
             align-items: center;
         }
@@ -68,6 +68,7 @@
             margin-top: 30px;
             display: flex;
             flex-direction: column;
+            align-items: center;
             gap: 20px;
             &__label {
                 font-family: Poppins;
@@ -77,23 +78,26 @@
                 line-height: normal;
             }
             &__first-number {
-                font-family: Poppins;
-                font-size: 35px;
+                font-family: "Poppins", sans-serif; /* Установите шрифт Poppins или другой по вашему выбору */
+                font-size: 30px;
+                font-weight: normal; /* Измените на "normal", если это необходимо */
                 font-style: normal;
-                padding: 12px;
+                padding: 12px 15px; /* Установите отступы с обеих сторон */
                 border-radius: 10px;
-                background: #DEDEDE;
-                width: 320px;
+                background-color: #DEDEDE; /* Замените "$white-color" на фактический цвет, если это переменная */
+                width: 270px;
+                color: $black-color;
             }
             &__second-number {
-                font-family: Poppins;
-                font-size: 35px;
+                font-family: Poppins, sans-serif;
+                font-size: 30px;
+                font-weight: normal;
                 font-style: normal;
-                padding: 12px 15px;
+                padding: 12px 20px;
                 border-radius: 10px;
                 background: #1E1E1E;
                 color: $white-color;
-                width: 320px;
+                width: 270px;
             }
         }
         &__info-block {
@@ -113,21 +117,22 @@
             font-size: 55px;
             font-weight: 500;
             @media (max-width: 1349px) { 
-                font-size: 33px;
+                font-size: 30px;
             }
             @media (max-width: 578px) { 
-                font-size: 33px;
+                font-size: 30px;
             }
         }
         &__email {
             margin-top: 20px;
             font-size: 55px;
             font-weight: 500;
+            color: $black-color;
             @media (max-width: 1349px) { 
-                font-size: 33px;
+                font-size: 30px;
             }
             @media (max-width: 578px) { 
-                font-size: 33px;
+                font-size: 30px;
             }
         }
     }

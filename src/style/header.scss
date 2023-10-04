@@ -52,20 +52,21 @@
         flex-direction: column;
         justify-content: center;
         position: fixed;
-        left: -100%;
+        transform: translateX(-100%);
         top: 0;
+        left: 0;
         bottom: 0;
         width: 50%;
         height: 100vh;
         background-color: #f8f8f8;
         z-index: 10;
-        transition: left 1s;
+        transition: transform 1s;
         @media (max-width: 576px) {
             width: 100%;
             overflow: hidden;
         }
         &.active {
-            left: 0;
+            transform: translateX(0);
         }
     }
     &__nav-bar-phone {
