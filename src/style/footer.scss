@@ -1,0 +1,107 @@
+@import "variables";
+
+.footer {
+    padding-top: 49px;
+    padding-bottom: 100px;
+    background: $black-color;
+    &__container {
+        width: 1270px;
+        margin: 0 auto;
+        @media (max-width: 1349px) { 
+            width: 90%;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        @media (max-width: 768px) { 
+            flex-direction: column;
+        }
+    }
+    &__intro {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        @media (max-width: 768px) { 
+            width: 100%;
+        }
+    }
+    &__logo {
+        width: 150px;
+        height: auto;
+        @media (max-width: 992px) { 
+            width: 100px;
+        }
+        @media (max-width: 768px) { 
+            width: 200px;
+        }
+        @media (max-width: 578px) { 
+            width: 100%;
+        }
+    }
+    &__nav {
+        margin-left: 290px;
+        display: flex;
+        gap: 20px;
+        @media (max-width: 1349px) { 
+            margin-left: 10vw;
+        }
+        @media (max-width: 992px) { 
+            margin-left: 5vw;
+        }
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        &__item {
+            color: $white-color;
+            font-family: Poppins;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            cursor: pointer;
+            @media (max-width: 1349px) { 
+                font-size: 23px;
+            }
+            @media (max-width: 992px) { 
+                font-size: 20px;
+            }
+            @media (max-width: 578px) { 
+                font-size: 16px;
+            }
+        }
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        @media (max-width: 768px) { 
+            margin-top: 30px;
+        }
+    }
+    &__data {
+        color: $white-color;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: right;
+        @media (max-width: 1349px) { 
+            font-size: 23px;
+        }
+        @media (max-width: 992px) { 
+            font-size: 20px;
+        }
+        @media (max-width: 768px) { 
+            text-align: left;
+            font-size: 30px;
+        }
+        @media (max-width: 578px) { 
+            font-size: 20px;
+        }
+    }
+}

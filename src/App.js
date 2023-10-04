@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./components/About";
+import FirstBlock from "./components/FirstBlock";
+import Footer from "./components/Footer";
+import HamamBlock from "./components/Hamam";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import NameBlock from "./components/NameBlock";
+import ProductionBlock from "./components/Production";
+import SaunaBlock from "./components/Sauna";
+import SecondBlock from "./components/SecondBlock";
+import "./style/style.scss";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return(
+        <>
+            <Header/>
+            <Main/>
+            <NameBlock/>
+            <div className="container">
+                <About/>
+            </div>
+            <NameBlock/>
+            <div className="container">
+                <FirstBlock/>
+                <SecondBlock/>
+                <HamamBlock/>
+                <SaunaBlock/>
+                <ProductionBlock/>
+            </div>
+            <Footer/>
+        </>
+    )
 }
 
 export default App;

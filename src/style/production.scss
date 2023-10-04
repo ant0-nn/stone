@@ -1,0 +1,156 @@
+@import "variables";
+
+.production {
+    &__first-wrapper {
+        margin-top: 140px;
+        @media (max-width: 992px) {
+            margin-top: 50px;
+        }
+        @media (max-width: 578px) {
+            margin-top: 30px;
+        }
+        &__block {
+            display: flex;
+            justify-content: space-between;
+            gap: 1.5%;
+            &__img {
+                height: auto;
+                flex: 1;
+                width: 30%;
+            }
+        }
+        &__title {
+            margin-top: 30px;
+            font-size: 40px;
+            font-weight: 500;
+            width: 330px;
+            padding: 20px 30px;
+            border-radius: 5px;
+            background: #D9D9D9;
+            @media (max-width: 992px) {
+                font-size: 30px;
+                width: 260px;
+            }
+            @media (max-width: 578px) {
+                font-size: 20px;
+                width: 165px;
+                padding: 10px 14px;
+                margin-top: 10px;
+            }
+        }
+    }
+    &__second-wrapper {
+        margin-top: 140px;
+        @media (max-width: 992px) {
+            margin-top: 50px;
+        }
+        @media (max-width: 578px) {
+            margin-top: 30px;
+        }
+        &__first-block {
+            display: flex;
+            justify-content: space-around;
+            gap: 1.5%;
+            &__img {
+                height: auto;
+                &:nth-child(1) {
+                    width: 35.98%;
+                }
+                &:nth-child(2) {
+                    width: 50.3%;
+                }
+                
+            }
+        }
+        &__second-block {
+            margin-top: 30px;
+            height: auto;
+            width: 100%;
+        }
+        &__third-block {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 1.5%;
+            &__first-block {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5%;
+                &__img {
+                    flex: 1;
+                    height: auto;
+                    width: 100%;
+                }
+            }
+            &__second-block {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5%;
+                &__img {
+                    flex: 1;
+                    height: auto;
+                    width: 100%;
+                }
+            }
+            
+        }
+        &__title {
+            margin-top: 30px;
+            font-size: 40px;
+            font-weight: 500;
+            width: 575px;
+            padding: 20px 30px;
+            border-radius: 5px;
+            background: #D9D9D9;
+            @media (max-width: 992px) {
+                font-size: 30px;
+                width: 445px;
+            }
+            @media (max-width: 578px) {
+                font-size: 20px;
+                width: 285px;
+                padding: 10px 14px;
+                margin-top: 10px;
+            }
+        }
+    }
+    &__third-wrapper {
+        margin-top: 140px;
+        margin-left: 20px;
+        @media (max-width: 992px) {
+            margin-top: 50px;
+        }
+        @media (max-width: 578px) {
+            margin-top: 30px;
+            margin-left: 0;
+        }
+        &__title {
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 15px;
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+            @media (max-width: 992px) {
+                font-size: 30px;
+            }
+            @media (max-width: 578px) {
+                font-size: 20px;
+                letter-spacing: 10px;
+            }
+        }
+        &__text {
+            margin-top: 60px;
+            font-size: 28px;
+            font-style: normal;
+            padding-bottom: 160px;
+            font-family: 'Poppins', sans-serif;
+            @media (max-width: 578px) {
+                padding-bottom: 60px;
+                margin-top: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}
