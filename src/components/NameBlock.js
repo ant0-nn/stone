@@ -3,7 +3,7 @@ const NameBlock = () => {
         <section className="name-block">
             <div className="width-line"></div>
             <div className="container">
-                <h1 className="name-block__title">LTD Starpass stone</h1>
+                <h1 className="name-block__title">Starpass stone LTD</h1>
             </div>
             <div className="width-line"></div>
         </section>

@@ -1,3 +1,4 @@
+import ReactPlayer from "react-player/youtube"
 import Icon1 from "../assets/img/1.jpg";
 import Icon2 from "../assets/img/2.jpg";
 import Icon3 from "../assets/img/3.jpg";
@@ -18,8 +19,6 @@ import Icon17 from "../assets/img/17.jpg";
 import Icon18 from "../assets/img/18.jpg";
 import Icon19 from "../assets/img/19.jpg";
 import Icon20 from "../assets/img/20.jpg";
-import Video1 from "../assets/video/2023-10-04 20-52-27.mp4";
-import Video2 from "../assets/video/2023-10-04 20-52-45.mp4";
 
 const About = () => {
     return(
@@ -97,12 +96,16 @@ const About = () => {
                 <h3 className="about__fifth-block__title">ONYX</h3>
             </div>
             <div className="about__sixth-block">
-                <video className="about__sixth-block__first-video" controls poster={Icon19}>
-                    <source src={Video1} type="video/mp4"/>
-                </video>
-                <video className="about__sixth-block__second-video" controls poster={Icon20}>
-                    <source src={Video2} type="video/mp4"/>
-                </video>
+                <ReactPlayer 
+                            url='https://www.youtube.com/watch?v=xreI-uTHJws' 
+                            className="about__sixth-block__video"
+                            controls
+                            width="100%"/>
+                <ReactPlayer 
+                            url='https://www.youtube.com/watch?v=GfxSQ7etbX0' 
+                            className="about__sixth-block__video"
+                            controls
+                            width="100%"/>
             </div>
         </section>
     )
