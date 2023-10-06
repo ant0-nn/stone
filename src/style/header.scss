@@ -12,6 +12,10 @@
             width: 1270px;
         }
     }
+    &__img {
+        width: 150px;
+        height: auto;
+    }
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -24,6 +28,7 @@
             display: none;
         }
         &__item {
+            font-family: 'Inter', sans-serif;
             color: $black-color;
             font-size: 28px;
             font-style: normal;
@@ -42,8 +47,8 @@
         @media screen and (max-width: 992px) {
             display: block;
             position: absolute;
-            top: 50px;
-            right: 20px;
+            top: 60px;
+            right: 30px;
             z-index: 999;
         }
     }

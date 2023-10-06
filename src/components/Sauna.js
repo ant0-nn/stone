@@ -43,7 +43,7 @@ const SaunaBlock = () => {
                     <img src={Icon77} alt="Icon77" className="sauna__third-wrapper__second-block__img"/>
                     <img src={Icon78} alt="Icon78" className="sauna__third-wrapper__second-block__img"/>
                 </div>
-                <h3 className="sauna__third-wrapper__title">FINISH SAUNA</h3>
+                <h3 className="sauna__third-wrapper__title">FINNISH STEAM ROOM</h3>
             </div>
             <div className="sauna__fourth-wrapper">
                 <div className="sauna__fourth-wrapper__block">

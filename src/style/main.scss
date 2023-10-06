@@ -12,6 +12,9 @@
         text-transform: uppercase;
         letter-spacing: 20px;
         font-weight: 700;
+        @media (max-width: 578px) { 
+            letter-spacing: 10px;
+        }
     }
     &__btn {
         background: $grey-color;

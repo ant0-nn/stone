@@ -235,19 +235,17 @@
         }
     }
     &__sixth-block {
-        margin-top: 20px;
-        &__first-video {
-            display: block;
-            height: auto;
-            margin: 0 auto;
-            width: 90%;
-        }
-        &__second-video {
-            margin: 0 auto;
-            margin-top: 20px;
-            display: block;
-            height: auto;
-            width: 90%;
+        max-width: 700px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        position: relative;
+        &__video {
+            padding: 0;
+            object-fit: cover;
         }
     }
 }

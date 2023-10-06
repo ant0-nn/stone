@@ -42,9 +42,6 @@
         justify-content: center;
         align-items: baseline;
         margin-left: 100px;
-        @media (max-width: 992px) { 
-            margin-left: 20px;
-        }
         @media (max-width: 768px) { 
             margin-top: 40px;
             margin-left: 0;
@@ -68,8 +65,10 @@
             margin-top: 30px;
             display: flex;
             flex-direction: column;
-            align-items: center;
             gap: 20px;
+            @media (max-width: 768px) {
+                align-items: center;
+            }
             &__label {
                 font-family: Poppins;
                 font-size: 42px;
@@ -78,13 +77,13 @@
                 line-height: normal;
             }
             &__first-number {
-                font-family: "Poppins", sans-serif; /* Установите шрифт Poppins или другой по вашему выбору */
+                font-family: "Poppins", sans-serif;
                 font-size: 30px;
-                font-weight: normal; /* Измените на "normal", если это необходимо */
+                font-weight: normal; 
                 font-style: normal;
-                padding: 12px 15px; /* Установите отступы с обеих сторон */
+                padding: 12px 15px; 
                 border-radius: 10px;
-                background-color: #DEDEDE; /* Замените "$white-color" на фактический цвет, если это переменная */
+                background-color: #DEDEDE; 
                 width: 270px;
                 color: $black-color;
             }
@@ -101,7 +100,7 @@
             }
         }
         &__info-block {
-            margin-top: 100px;
+            margin-top: 60px;
             display: flex;
             flex-direction: column;
             gap: 20px;
