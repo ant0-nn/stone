@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {FirstNavBar, SecondNavBar} from "../assets/data/data.js";
 import Logo from "../assets/img/black-logo.png";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -7,6 +7,17 @@ import { Link } from "react-scroll";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto";
+        }
+        return () => {
+            document.body.style.overflow = "auto";
+        };
+    }, [isOpen]);
 
     const handleMobileNavClick = () => {
         setIsOpen(false);
