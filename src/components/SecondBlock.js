@@ -21,40 +21,40 @@ const SecondBlock = () => {
         <section className="second-block">
             <div className="second-block__first-wrapper" id="fireplaces">
                 <div className="second-block__first-wrapper__block">
-                    <img src={Icon44} alt="Icon44" className="second-block__first-wrapper__block__img"/>
-                    <img src={Icon45} alt="Icon45" className="second-block__first-wrapper__block__img"/>
-                    <img src={Icon46} alt="Icon46" className="second-block__first-wrapper__block__img"/>
+                    <img src={Icon44} alt="Icon44" loading="lazy" className="second-block__first-wrapper__block__img"/>
+                    <img src={Icon45} alt="Icon45" loading="lazy" className="second-block__first-wrapper__block__img"/>
+                    <img src={Icon46} alt="Icon46"loading="lazy" className="second-block__first-wrapper__block__img"/>
                 </div>
                 <h3 className="second-block__first-wrapper__title">FIREPLACES</h3>
             </div>
             <div className="second-block__second-wrapper">
                 <div className="second-block__second-wrapper__block">
-                    <img src={Icon47} alt="Icon47" className="second-block__second-wrapper__block__img"/>
-                    <img src={Icon48} alt="Icon48" className="second-block__second-wrapper__block__img"/>
-                    <img src={Icon49} alt="Icon49" className="second-block__second-wrapper__block__img"/>
+                    <img src={Icon47} alt="Icon47" loading="lazy" className="second-block__second-wrapper__block__img"/>
+                    <img src={Icon48} alt="Icon48" loading="lazy" className="second-block__second-wrapper__block__img"/>
+                    <img src={Icon49} alt="Icon49" loading="lazy" className="second-block__second-wrapper__block__img"/>
                 </div>
-                <img src={Icon50} alt="Icon50" className="second-block__second-wrapper__img"/>
+                <img src={Icon50} alt="Icon50" loading="lazy" className="second-block__second-wrapper__img"/>
                 <h3 className="second-block__second-wrapper__title">ELECTROCAMINS</h3>
             </div>
             <div className="second-block__third-wrapper">
                 <div className="second-block__third-wrapper__first-block">
-                    <img src={Icon51} alt="Icon51" className="second-block__third-wrapper__first-block__img"/>
-                    <img src={Icon52} alt="Icon52" className="second-block__third-wrapper__first-block__img"/>
-                    <img src={Icon53} alt="Icon53" className="second-block__third-wrapper__first-block__img"/>
+                    <img src={Icon51} alt="Icon51" loading="lazy" className="second-block__third-wrapper__first-block__img"/>
+                    <img src={Icon52} alt="Icon52" loading="lazy" className="second-block__third-wrapper__first-block__img"/>
+                    <img src={Icon53} alt="Icon53" loading="lazy" className="second-block__third-wrapper__first-block__img"/>
                 </div>
                 <div className="second-block__third-wrapper__second-block">
-                    <img src={Icon54} alt="Icon54" className="second-block__third-wrapper__second-block__img"/>
-                    <img src={Icon55} alt="Icon55" className="second-block__third-wrapper__second-block__img"/>
-                    <img src={Icon56} alt="Icon56" className="second-block__third-wrapper__second-block__img"/>
+                    <img src={Icon54} alt="Icon54" loading="lazy" className="second-block__third-wrapper__second-block__img"/>
+                    <img src={Icon55} alt="Icon55" loading="lazy" className="second-block__third-wrapper__second-block__img"/>
+                    <img src={Icon56} alt="Icon56" loading="lazy" className="second-block__third-wrapper__second-block__img"/>
                 </div>
                 <h3 className="second-block__third-wrapper__title">BIOCAMINES</h3>
             </div>
             <div className="second-block__fourth-wrapper">
                 <div className="second-block__fourth-wrapper__block">
-                    <img src={Icon57} alt="Icon57" className="second-block__fourth-wrapper__block__img"/>
-                    <img src={Icon58} alt="Icon58" className="second-block__fourth-wrapper__block__img"/>
-                    <img src={Icon59} alt="Icon59" className="second-block__fourth-wrapper__block__img"/>
-                    <img src={Icon60} alt="Icon60" className="second-block__fourth-wrapper__block__img"/>
+                    <img src={Icon57} alt="Icon57" loading="lazy" className="second-block__fourth-wrapper__block__img"/>
+                    <img src={Icon58} alt="Icon58" loading="lazy" className="second-block__fourth-wrapper__block__img"/>
+                    <img src={Icon59} alt="Icon59" loading="lazy" className="second-block__fourth-wrapper__block__img"/>
+                    <img src={Icon60} alt="Icon60" loading="lazy" className="second-block__fourth-wrapper__block__img"/>
                 </div>
                 <h3 className="second-block__fourth-wrapper__title">BBQ</h3>
             </div>

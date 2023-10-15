@@ -34,27 +34,27 @@ const HamamBlock = () => {
             <div className="hamam__third-wrapper">
                 <h3 className="hamam__third-wrapper__title">Portfolio</h3>
                 <div className="hamam__third-wrapper__block">
-                    <img src={Icon61} alt="Icon61" className="hamam__third-wrapper__block__img"/>
-                    <img src={Icon62} alt="Icon62" className="hamam__third-wrapper__block__img"/>
-                    <img src={Icon63} alt="Icon63" className="hamam__third-wrapper__block__img"/>
+                    <img src={Icon61} alt="Icon61" loading="lazy" className="hamam__third-wrapper__block__img"/>
+                    <img src={Icon62} alt="Icon62" loading="lazy" className="hamam__third-wrapper__block__img"/>
+                    <img src={Icon63} alt="Icon63" loading="lazy" className="hamam__third-wrapper__block__img"/>
                 </div>  
                 <h2 className="hamam__third-wrapper__info">MOSAIC IN HAMMAM</h2>
             </div>
             <div className="hamam__fourth-wrapper">
                 <div className="hamam__fourth-wrapper__block">
-                    <img src={Icon64} alt="Icon64" className="hamam__fourth-wrapper__block__img"/>
-                    <img src={Icon65} alt="Icon65" className="hamam__fourth-wrapper__block__img"/>
-                    <img src={Icon66} alt="Icon66" className="hamam__fourth-wrapper__block__img"/>
+                    <img src={Icon64} alt="Icon64" loading="lazy" className="hamam__fourth-wrapper__block__img"/>
+                    <img src={Icon65} alt="Icon65" loading="lazy" className="hamam__fourth-wrapper__block__img"/>
+                    <img src={Icon66} alt="Icon66" loading="lazy" className="hamam__fourth-wrapper__block__img"/>
                 </div>
                 <h3 className="hamam__fourth-wrapper__title">HAMMAM IN MOSAIC WITH ERGONOMIC BENCHES</h3>
             </div>
             <div className="hamam__fifth-wrapper">
-                <img src={Icon67} alt="Icon67" className="hamam__fifth-wrapper__img"/>
+                <img src={Icon67} alt="Icon67" loading="lazy" className="hamam__fifth-wrapper__img"/>
                 <h3 className="hamam__fifth-wrapper__title">HAMMAM IN MARBLE</h3>
             </div>
             <div className="hamam__sixth-wrapper">
                 <div className="hamam__sixth-wrapper__first-block">
-                    <img src={Icon68} alt="Icon68" className="hamam__sixth-wrapper__first-block__img"/>
+                    <img src={Icon68} alt="Icon68" loading="lazy" className="hamam__sixth-wrapper__first-block__img"/>
                     <div className="hamam__sixth-wrapper__first-block__info">
                         <h3 className="hamam__sixth-wrapper__first-block__title">
                             HAMMAM EQUIPMENT
@@ -66,8 +66,8 @@ const HamamBlock = () => {
                 </div>
                 <div className="hamam__sixth-wrapper__second-block">
                     <div className="hamam__sixth-wrapper__second-block__imgs">
-                        <img src={Icon69} alt="Icon69" className="hamam__sixth-wrapper__second-block__imgs__img"/>
-                        <img src={Icon70} alt="Icon70" className="hamam__sixth-wrapper__second-block__imgs__img"/>
+                        <img src={Icon69} alt="Icon69" loading="lazy" className="hamam__sixth-wrapper__second-block__imgs__img"/>
+                        <img src={Icon70} alt="Icon70" loading="lazy" className="hamam__sixth-wrapper__second-block__imgs__img"/>
                     </div>
                     <h3 className="hamam__sixth-wrapper__second-block__title">Steam generator Sawo STN - 120 DFP SST</h3>
                 </div>

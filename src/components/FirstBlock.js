@@ -28,13 +28,13 @@ const FirstBlock = () => {
             <h2 className="first-block__title">INSTRUCTION</h2>
             <div className="first-block__first-wrapper">
                 <div className="first-block__first-wrapper__first-block">
-                    <img src={Icon21} alt="Icon21" className="first-block__first-wrapper__first-block__img"/>
-                    <img src={Icon22} alt="Icon22" className="first-block__first-wrapper__first-block__img"/>
+                    <img src={Icon21} alt="Icon21" loading="lazy" className="first-block__first-wrapper__first-block__img"/>
+                    <img src={Icon22} alt="Icon22" loading="lazy" className="first-block__first-wrapper__first-block__img"/>
                 </div>
                 <div className="first-block__first-wrapper__second-block">
-                    <img src={Icon23} alt="Icon23" className="first-block__first-wrapper__second-block__img"/>
-                    <img src={Icon24} alt="Icon24" className="first-block__first-wrapper__second-block__img"/>
-                    <img src={Icon25} alt="Icon25" className="first-block__first-wrapper__second-block__img"/>
+                    <img src={Icon23} alt="Icon23" loading="lazy" className="first-block__first-wrapper__second-block__img"/>
+                    <img src={Icon24} alt="Icon24" loading="lazy" className="first-block__first-wrapper__second-block__img"/>
+                    <img src={Icon25} alt="Icon25" loading="lazy" className="first-block__first-wrapper__second-block__img"/>
                 </div>
                 <h3 className="first-block__first-wrapper__title">
                     AVERAGE COST OF A ROBOT
@@ -43,46 +43,46 @@ const FirstBlock = () => {
             <div className="first-block__second-wrapper">
                 <div className="first-block__second-wrapper__block">
                     <div className="first-block__second-wrapper__first-block">
-                        <img src={Icon26} alt="Icon26" className="first-block__second-wrapper__first-block__img"/>
-                        <img src={Icon27} alt="Icon27" className="first-block__second-wrapper__first-block__img"/>
+                        <img src={Icon26} alt="Icon26" loading="lazy" className="first-block__second-wrapper__first-block__img"/>
+                        <img src={Icon27} alt="Icon27" loading="lazy" className="first-block__second-wrapper__first-block__img"/>
                     </div>
-                    <img src={Icon28} alt="Icon28" className="first-block__second-wrapper__second-block"/>
+                    <img src={Icon28} alt="Icon28" loading="lazy" className="first-block__second-wrapper__second-block"/>
                 </div>
                 <h3 className="first-block__second-wrapper__title">MARBLE COLUMNS</h3>
             </div>
             <div className="first-block__third-wrapper" id="bathroom">
                 <div className="first-block__third-wrapper__first-block">
-                    <img src={Icon29} alt="Icon29" className="first-block__third-wrapper__first-block__img"/>
-                    <img src={Icon30} alt="Icon30" className="first-block__third-wrapper__first-block__img"/>
+                    <img src={Icon29} alt="Icon29" loading="lazy" className="first-block__third-wrapper__first-block__img"/>
+                    <img src={Icon30} alt="Icon30" loading="lazy" className="first-block__third-wrapper__first-block__img"/>
                 </div>
                 <div className="first-block__third-wrapper__second-block">
-                    <img src={Icon31} alt="Icon31" className="first-block__third-wrapper__second-block__img"/>
-                    <img src={Icon32} alt="Icon32" className="first-block__third-wrapper__second-block__img"/>
-                    <img src={Icon33} alt="Icon33" className="first-block__third-wrapper__second-block__img"/>
+                    <img src={Icon31} alt="Icon31" loading="lazy" className="first-block__third-wrapper__second-block__img"/>
+                    <img src={Icon32} alt="Icon32" loading="lazy" className="first-block__third-wrapper__second-block__img"/>
+                    <img src={Icon33} alt="Icon33" loading="lazy" className="first-block__third-wrapper__second-block__img"/>
                 </div>
                 <h3 className="first-block__third-wrapper__title">STONE BATHROOMS</h3>
             </div>
             <div className="first-block__forth-wrapper">
                 <div className="first-block__forth-wrapper__first-block">
-                    <img src={Icon34} alt="Icon34" className="first-block__forth-wrapper__first-block__img"/>
-                    <img src={Icon35} alt="Icon35" className="first-block__forth-wrapper__first-block__img"/>
-                    <img src={Icon36} alt="Icon36" className="first-block__forth-wrapper__first-block__img"/>
+                    <img src={Icon34} alt="Icon34" loading="lazy" className="first-block__forth-wrapper__first-block__img"/>
+                    <img src={Icon35} alt="Icon35" loading="lazy" className="first-block__forth-wrapper__first-block__img"/>
+                    <img src={Icon36} alt="Icon36" loading="lazy" className="first-block__forth-wrapper__first-block__img"/>
                 </div>
                 <div className="first-block__forth-wrapper__second-block">
-                    <img src={Icon37} alt="Icon37" className="first-block__forth-wrapper__second-block__img"/>
+                    <img src={Icon37} alt="Icon37" loading="lazy" className="first-block__forth-wrapper__second-block__img"/>
                     <div className="first-block__forth-wrapper__second-block__other">
-                        <img src={Icon38} alt="Icon38" className="first-block__forth-wrapper__second-block__other__img"/>
-                        <img src={Icon39} alt="Icon39" className="first-block__forth-wrapper__second-block__other__img"/>
+                        <img src={Icon38} alt="Icon38" loading="lazy" className="first-block__forth-wrapper__second-block__other__img"/>
+                        <img src={Icon39} alt="Icon39" loading="lazy" className="first-block__forth-wrapper__second-block__other__img"/>
                     </div>
                 </div>
                 <h3 className="first-block__forth-wrapper__title">LADDERS</h3>
             </div>
             <div className="first-block__fifth-wrapper" id="table">
                 <div className="first-block__fifth-wrapper__block">
-                    <img src={Icon40} alt="Icon40" className="first-block__fifth-wrapper__block__img"/>
-                    <img src={Icon41} alt="Icon41" className="first-block__fifth-wrapper__block__img"/>
-                    <img src={Icon42} alt="Icon42" className="first-block__fifth-wrapper__block__img"/>
-                    <img src={Icon43} alt="Icon43" className="first-block__fifth-wrapper__block__img"/>
+                    <img src={Icon40} alt="Icon40" loading="lazy" className="first-block__fifth-wrapper__block__img"/>
+                    <img src={Icon41} alt="Icon41" loading="lazy" className="first-block__fifth-wrapper__block__img"/>
+                    <img src={Icon42} alt="Icon42" loading="lazy" className="first-block__fifth-wrapper__block__img"/>
+                    <img src={Icon43} alt="Icon43" loading="lazy" className="first-block__fifth-wrapper__block__img"/>
                 </div>
                 <h3 className="first-block__fifth-wrapper__title">TABLES</h3>
             </div>

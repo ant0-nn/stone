@@ -14,26 +14,26 @@ const ProductionBlock = () => {
         <section className="production">
             <div className="production__first-wrapper">
                 <div className="production__first-wrapper__block">
-                    <img src={Icon90} alt="Icon90" className="production__first-wrapper__block__img"/>
-                    <img src={Icon91} alt="Icon91" className="production__first-wrapper__block__img"/>
-                    <img src={Icon92} alt="Icon92" className="production__first-wrapper__block__img"/>
+                    <img src={Icon90} alt="Icon90" loading="lazy" className="production__first-wrapper__block__img"/>
+                    <img src={Icon91} alt="Icon91" loading="lazy" className="production__first-wrapper__block__img"/>
+                    <img src={Icon92} alt="Icon92" loading="lazy" className="production__first-wrapper__block__img"/>
                 </div>
                 <h3 className="production__first-wrapper__title">PRODUCTION</h3>
             </div>
             <div className="production__second-wrapper">
                 <div className="production__second-wrapper__first-block">
-                    <img src={Icon93} alt="Icon93" className="production__second-wrapper__first-block__img"/>
-                    <img src={Icon94} alt="Icon94" className="production__second-wrapper__first-block__img"/>
+                    <img src={Icon93} alt="Icon93" loading="lazy" className="production__second-wrapper__first-block__img"/>
+                    <img src={Icon94} alt="Icon94" loading="lazy" className="production__second-wrapper__first-block__img"/>
                 </div>
-                <img src={Icon95} alt="Icon95" className="production__second-wrapper__second-block"/>
+                <img src={Icon95} alt="Icon95" loading="lazy" className="production__second-wrapper__second-block"/>
                 <div className="production__second-wrapper__third-block">
                     <div className="production__second-wrapper__third-block__first-block">
-                        <img src={Icon96} alt="Icon96" className="production__second-wrapper__third-block__first-block__img"/>
-                        <img src={Icon97} alt="Icon97" className="production__second-wrapper__third-block__first-block__img"/>
+                        <img src={Icon96} alt="Icon96" loading="lazy" className="production__second-wrapper__third-block__first-block__img"/>
+                        <img src={Icon97} alt="Icon97" loading="lazy" className="production__second-wrapper__third-block__first-block__img"/>
                     </div>
                     <div className="production__second-wrapper__third-block__second-block">
-                        <img src={Icon29} alt="Icon29" className="production__second-wrapper__third-block__second-block__img"/>
-                        <img src={Icon98} alt="Icon29" className="production__second-wrapper__third-block__second-block__img"/>
+                        <img src={Icon29} alt="Icon29" loading="lazy" className="production__second-wrapper__third-block__second-block__img"/>
+                        <img src={Icon98} alt="Icon29" loading="lazy" className="production__second-wrapper__third-block__second-block__img"/>
                     </div>
                 </div>
                 <h3 className="production__second-wrapper__title">ENGINEERING SOLUTIONS</h3>

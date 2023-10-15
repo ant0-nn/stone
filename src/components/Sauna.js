@@ -33,23 +33,23 @@ const SaunaBlock = () => {
             </div>
             <div className="sauna__third-wrapper">
                 <div className="sauna__third-wrapper__first-block">
-                    <img src={Icon72} alt="Icon72" className="sauna__third-wrapper__first-block__img"/>
-                    <img src={Icon73} alt="Icon73" className="sauna__third-wrapper__first-block__img"/>
-                    <img src={Icon74} alt="Icon74" className="sauna__third-wrapper__first-block__img"/>
+                    <img src={Icon72} alt="Icon72" loading="lazy" className="sauna__third-wrapper__first-block__img"/>
+                    <img src={Icon73} alt="Icon73" loading="lazy" className="sauna__third-wrapper__first-block__img"/>
+                    <img src={Icon74} alt="Icon74" loading="lazy" className="sauna__third-wrapper__first-block__img"/>
                 </div>
                 <div className="sauna__third-wrapper__second-block">
-                    <img src={Icon75} alt="Icon75" className="sauna__third-wrapper__second-block__img"/>
-                    <img src={Icon76} alt="Icon76" className="sauna__third-wrapper__second-block__img"/>
-                    <img src={Icon77} alt="Icon77" className="sauna__third-wrapper__second-block__img"/>
-                    <img src={Icon78} alt="Icon78" className="sauna__third-wrapper__second-block__img"/>
+                    <img src={Icon75} alt="Icon75" loading="lazy" className="sauna__third-wrapper__second-block__img"/>
+                    <img src={Icon76} alt="Icon76" loading="lazy" className="sauna__third-wrapper__second-block__img"/>
+                    <img src={Icon77} alt="Icon77" loading="lazy" className="sauna__third-wrapper__second-block__img"/>
+                    <img src={Icon78} alt="Icon78" loading="lazy" className="sauna__third-wrapper__second-block__img"/>
                 </div>
                 <h3 className="sauna__third-wrapper__title">FINNISH STEAM ROOM</h3>
             </div>
             <div className="sauna__fourth-wrapper">
                 <div className="sauna__fourth-wrapper__block">
-                    <img src={Icon79} alt="Icon79" className="sauna__fourth-wrapper__block__img"/>
-                    <img src={Icon80} alt="Icon80" className="sauna__fourth-wrapper__block__img"/>
-                    <img src={Icon81} alt="Icon81" className="sauna__fourth-wrapper__block__img"/>
+                    <img src={Icon79} alt="Icon79" loading="lazy" className="sauna__fourth-wrapper__block__img"/>
+                    <img src={Icon80} alt="Icon80" loading="lazy" className="sauna__fourth-wrapper__block__img"/>
+                    <img src={Icon81} alt="Icon81" loading="lazy" className="sauna__fourth-wrapper__block__img"/>
                 </div>
                 <h3 className="sauna__fourth-wrapper__title">
                     FINNISH STEAM LIGHTING OF SALT AND BENCHES
@@ -57,10 +57,10 @@ const SaunaBlock = () => {
             </div>
             <div className="sauna__fifth-wrapper">
                 <div className="sauna__fifth-wrapper__block">
-                    <img src={Icon82} alt="Icon82" className="sauna__fifth-wrapper__block__img"/>
-                    <img src={Icon83} alt="Icon83" className="sauna__fifth-wrapper__block__img"/>
-                    <img src={Icon84} alt="Icon84" className="sauna__fifth-wrapper__block__img"/>
-                    <img src={Icon85} alt="Icon85" className="sauna__fifth-wrapper__block__img"/>
+                    <img src={Icon82} alt="Icon82" loading="lazy" className="sauna__fifth-wrapper__block__img"/>
+                    <img src={Icon83} alt="Icon83" loading="lazy" className="sauna__fifth-wrapper__block__img"/>
+                    <img src={Icon84} alt="Icon84" loading="lazy" className="sauna__fifth-wrapper__block__img"/>
+                    <img src={Icon85} alt="Icon85" loading="lazy" className="sauna__fifth-wrapper__block__img"/>
                 </div>
                 <h3 className="sauna__fifth-wrapper__title">
                     SENIOR ROOMS
@@ -68,15 +68,15 @@ const SaunaBlock = () => {
             </div>
             <div className="sauna__sixth-wrapper">
                 <div className="sauna__sixth-wrapper__block">
-                    <img src={Icon86} alt="Icon86" className="sauna__sixth-wrapper__block__img"/>
-                    <img src={Icon87} alt="Icon87" className="sauna__sixth-wrapper__block__img"/>
+                    <img src={Icon86} alt="Icon86" loading="lazy" className="sauna__sixth-wrapper__block__img"/>
+                    <img src={Icon87} alt="Icon87" loading="lazy" className="sauna__sixth-wrapper__block__img"/>
                 </div>
                 <h3 className="sauna__sixth-wrapper__title">HUMPBACK</h3>
             </div>
             <div className="sauna__seventh-wrapper">
                 <div className="sauna__seventh-wrapper__block">
-                    <img src={Icon88} alt="Icon88" className="sauna__seventh-wrapper__block__img"/>
-                    <img src={Icon89} alt="Icon89" className="sauna__seventh-wrapper__block__img"/>
+                    <img src={Icon88} alt="Icon88" loading="lazy" className="sauna__seventh-wrapper__block__img"/>
+                    <img src={Icon89} alt="Icon89" loading="lazy" className="sauna__seventh-wrapper__block__img"/>
                 </div>
                 <h3 className="sauna__seventh-wrapper__title">
                     SAUNA EQUIPMENT
