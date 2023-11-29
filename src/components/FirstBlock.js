@@ -37,7 +37,7 @@ const FirstBlock = () => {
                     <img src={Icon25} alt="Icon25" loading="lazy" className="first-block__first-wrapper__second-block__img"/>
                 </div>
                 <h3 className="first-block__first-wrapper__title">
-                    AVERAGE COST OF A ROBOT
+                    AVERAGE COST OF ROBOT
                 </h3>
             </div>
             <div className="first-block__second-wrapper">

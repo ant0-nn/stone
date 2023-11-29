@@ -14,7 +14,7 @@ const HamamBlock = () => {
         <section className="hamam" id="hamam">
              <div className="hamam__first-wrapper">
                 <h2 className="hamam__first-wrapper__title">
-                    WHAT IS A HAMAM ? PECULIARITIES OF TURKISH BATH
+                    WHAT IS A HAMMAM ? PECULIARITIES OF TURKISH BATH
                 </h2>
                 <h3 className="hamam__first-wrapper__subtitle">
                     Hammam - health benefits
@@ -25,7 +25,7 @@ const HamamBlock = () => {
             </div>
             <div className="hamam__second-wrapper">
                 <h2 className="hamam__second-wrapper__title">
-                    HAMAM CONSTRUCTION
+                    HAMMAM CONSTRUCTION
                 </h2>
                 <p className="hamam__second-wrapper__text">
                     We carry out construction of Turkish baths for personal or commercial use. Working with the client, we offer a high quality product that will serve you for decades We use premium materials and advanced equipment. Entrust the construction of a Turkish bath to professionals!

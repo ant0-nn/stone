@@ -1,0 +1,123 @@
+.pop-up-phone {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #d18d28;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    transition: 1s ease;
+    animation: pulse 2s infinite;
+    @media(max-width: 568px) {
+      right: 5%;
+      width: 50px;
+      height: 50px;
+      font-size: 28px;
+    }
+}
+
+.phonePopUp {
+    &-container{
+        position: fixed;
+        bottom: 13%;
+        right: 30px;
+        z-index: 999;
+        width:26rem;
+        padding: 30px 35px;
+        border-radius: 5px;
+        height: 22rem;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        color: #000;
+        @media(max-width: 568px) {
+          width: 90%;
+          right: 5%;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+    
+        input {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-family: "IBM Plex Mono", monospace;
+          font-size: 18px;
+        }
+    
+        button {
+          margin-top: 15px;
+          padding: 15px 60px;
+          background-color: #d18d28;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-family: "IBM Plex Mono", monospace;
+          font-size: 18px;
+          &:hover{
+            background-color:#d18d28d7;
+          }
+        }
+    
+        button:disabled {
+          background-color: #ccc;
+          cursor: not-allowed;
+        }
+        &--title{
+          font-family: 'Kyiv Region', sans-serif;
+          font-size: 24px;
+          line-height: 1.35;
+          font-weight: 600;
+          margin-bottom: 20px;
+          text-align: center;
+          @media(max-width: 568px) {
+            font-size: 20px;
+          }
+        }
+        &--text{
+          font-family: 'IBM Plex Mono', sans-serif;
+          font-size: 15px;
+          margin-top: 20px;
+          line-height: 2;
+          & a{
+            padding-top: 5px;
+            text-decoration: underline;
+            color: black;
+          }
+        }
+    
+      }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1) rotate(0deg)
+  }
+  25% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1) rotate(25deg);
+  }
+  50% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1) rotate(0deg)
+  }
+  75% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1) rotate(-15deg);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1) rotate(0deg)
+  }
+}
