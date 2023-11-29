@@ -65,7 +65,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        gap: 1.5%;
+        gap: 1.7%;
 
         @media (max-width: 768px) {
             flex-wrap: wrap;
@@ -81,6 +81,7 @@
         &__img {
             height: auto;
             width: 100%;
+            
         }
     }
     &__title {

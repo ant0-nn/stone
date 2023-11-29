@@ -34,7 +34,7 @@ const SecondBlock = () => {
                     <img src={Icon49} alt="Icon49" loading="lazy" className="second-block__second-wrapper__block__img"/>
                 </div>
                 <img src={Icon50} alt="Icon50" loading="lazy" className="second-block__second-wrapper__img"/>
-                <h3 className="second-block__second-wrapper__title">ELECTROCAMINS</h3>
+                <h3 className="second-block__second-wrapper__title">ELECTRIC FIREPLACES</h3>
             </div>
             <div className="second-block__third-wrapper">
                 <div className="second-block__third-wrapper__first-block">
@@ -47,7 +47,7 @@ const SecondBlock = () => {
                     <img src={Icon55} alt="Icon55" loading="lazy" className="second-block__third-wrapper__second-block__img"/>
                     <img src={Icon56} alt="Icon56" loading="lazy" className="second-block__third-wrapper__second-block__img"/>
                 </div>
-                <h3 className="second-block__third-wrapper__title">BIOCAMINES</h3>
+                <h3 className="second-block__third-wrapper__title">BIO FIREPLACES</h3>
             </div>
             <div className="second-block__fourth-wrapper">
                 <div className="second-block__fourth-wrapper__block">
