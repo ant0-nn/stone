@@ -70,7 +70,7 @@ const PopUpPhone = () => {
           </form>
           <p className="phonePopUp-container--text">
             Or you can call us at this phone number:<br/>
-            <a href="tel:+380989498648">+380 (98) 949 86 48</a>
+            <a href="tel:+353852021263">+353852021263</a>
           </p>
         </div>
       )}
