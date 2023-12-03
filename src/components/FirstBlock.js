@@ -84,7 +84,7 @@ const FirstBlock = () => {
                     <img src={Icon42} alt="Icon42" loading="lazy" className="first-block__fifth-wrapper__block__img"/>
                     <img src={Icon43} alt="Icon43" loading="lazy" className="first-block__fifth-wrapper__block__img"/>
                 </div>
-                <h3 className="first-block__fifth-wrapper__title">TABLES</h3>
+                <h3 className="first-block__fifth-wrapper__title">TABLETOPS</h3>
             </div>
         </section>
     );
