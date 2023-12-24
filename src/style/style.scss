@@ -31,10 +31,17 @@ h1, h2, h3, h4, h5, h6 {
     width: fit-content;
 }
 
-body{
-    background: url(../assets/img/8.jpg) no-repeat center center fixed;
-    background-size: cover;
-    z-index: -1;
+body::before{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url(../assets/img/8.jpg) no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.4;
 }
 
 
