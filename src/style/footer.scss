@@ -58,7 +58,7 @@
         &__item {
             color: $white-color;
             font-family: Poppins;
-            font-size: 30px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -85,23 +85,30 @@
     &__data {
         color: $white-color;
         font-family: Poppins;
-        font-size: 30px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         text-align: right;
-        @media (max-width: 1349px) { 
-            font-size: 23px;
-        }
-        @media (max-width: 992px) { 
-            font-size: 20px;
-        }
+        cursor: pointer;
         @media (max-width: 768px) { 
             text-align: left;
-            font-size: 30px;
         }
         @media (max-width: 578px) { 
             font-size: 16px;
+        }
+    }
+    &__whatsapp {
+        cursor: pointer;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: auto;
+        color: $whatsapp-color;
+        @media (max-width: 768px) { 
+            margin-left: 0;
         }
     }
 }

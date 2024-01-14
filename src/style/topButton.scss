@@ -7,9 +7,13 @@
     height: 60px;
     border-radius: 50%;
     border: none;
-    background: #d18d28;
+    background: $tiffany-color;
     color: #fff;
     font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     @media(max-width: 568px) {
@@ -22,5 +26,5 @@
 }
 
 .top-button.show {
-    opacity: 1; /* При відображенні кнопка стає видимою */
+    opacity: 1;
 }

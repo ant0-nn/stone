@@ -35,6 +35,10 @@
             font-weight: 500;
             line-height: normal;
             cursor: pointer;
+            transition: 0.3s ease;
+            &:hover {
+                color: $tiffany-color;
+            }
             @media screen and (max-width: 1200px) {
                 font-size: 20px;
             }

@@ -1,8 +1,15 @@
 import {FirstNavBar, SecondNavBar} from "../assets/data/data.js";
-import Logo from "../assets/img/white-logo.svg";
 import { Link } from "react-scroll";
+import { ImWhatsapp } from "react-icons/im";
+import Logo from "../assets/img/white-logo.svg";
 
 const Footer = () => {
+
+    const handleWhatsAppClick = () => {
+        const whatsappLink = `https://wa.me/+353852021268`;
+        window.open(whatsappLink, '_blank');
+    };
+
     return(
         <footer className="footer">
             <div className="footer__container">
@@ -38,8 +45,8 @@ const Footer = () => {
                     </div>
                     <div className="footer__info">
                         <span className="footer__data">E-mail: pik.rud@gmail.com</span>
-                        <span className="footer__data">Phone number:+353852021263</span>
-                        <span className="footer__data">WhatsApp: +380674052765</span>
+                        <span className="footer__data">Phone number: +3293958013</span>
+                        <ImWhatsapp className="footer__whatsapp" onClick={handleWhatsAppClick}/>
                     </div>
                 </div>
             </div>

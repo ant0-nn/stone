@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { AiOutlineUp } from "react-icons/ai";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 const TopButton = () => { 
 
@@ -23,7 +23,7 @@ const TopButton = () => {
     return(
         <div>
             <button onClick={scrollToTop} className={`top-button ${isVisible ? 'show' : ''}`}>
-                <AiOutlineUp />
+                <AiOutlineArrowUp />
             </button>
         </div>
     )
