@@ -1,39 +1,28 @@
-import Icon29 from "../assets/img/29.jpg";
-import Icon90 from "../assets/img/90.jpg";
-import Icon91 from "../assets/img/91.jpg";
-import Icon92 from "../assets/img/92.jpg";
-import Icon93 from "../assets/img/93.jpg";
-import Icon94 from "../assets/img/94.jpg";
-import Icon95 from "../assets/img/95.jpg";
-import Icon96 from "../assets/img/96.jpg";
-import Icon97 from "../assets/img/97.jpg";
-import Icon98 from "../assets/img/98.jpg";
-
 const ProductionBlock = () => {
     return(
         <section className="production">
             <div className="production__first-wrapper">
                 <div className="production__first-wrapper__block">
-                    <img src={Icon90} alt="Icon90" loading="lazy" className="production__first-wrapper__block__img"/>
-                    <img src={Icon91} alt="Icon91" loading="lazy" className="production__first-wrapper__block__img"/>
-                    <img src={Icon92} alt="Icon92" loading="lazy" className="production__first-wrapper__block__img"/>
+                    <img src="img/90.jpg" alt="Icon90" loading="lazy" className="production__first-wrapper__block__img"/>
+                    <img src="img/91.jpg" alt="Icon91" loading="lazy" className="production__first-wrapper__block__img"/>
+                    <img src="img/92.jpg" alt="Icon92" loading="lazy" className="production__first-wrapper__block__img"/>
                 </div>
                 <h3 className="production__first-wrapper__title">PRODUCTION</h3>
             </div>
             <div className="production__second-wrapper">
                 <div className="production__second-wrapper__first-block">
-                    <img src={Icon93} alt="Icon93" loading="lazy" className="production__second-wrapper__first-block__img"/>
-                    <img src={Icon94} alt="Icon94" loading="lazy" className="production__second-wrapper__first-block__img"/>
+                    <img src="img/93.jpg" alt="Icon93" loading="lazy" className="production__second-wrapper__first-block__img"/>
+                    <img src="img/94.jpg" alt="Icon94" loading="lazy" className="production__second-wrapper__first-block__img"/>
                 </div>
-                <img src={Icon95} alt="Icon95" loading="lazy" className="production__second-wrapper__second-block"/>
+                <img src="img/95.jpg" alt="Icon95" loading="lazy" className="production__second-wrapper__second-block"/>
                 <div className="production__second-wrapper__third-block">
                     <div className="production__second-wrapper__third-block__first-block">
-                        <img src={Icon96} alt="Icon96" loading="lazy" className="production__second-wrapper__third-block__first-block__img"/>
-                        <img src={Icon97} alt="Icon97" loading="lazy" className="production__second-wrapper__third-block__first-block__img"/>
+                        <img src="img/96.jpg" alt="Icon96" loading="lazy" className="production__second-wrapper__third-block__first-block__img"/>
+                        <img src="img/97.jpg" alt="Icon97" loading="lazy" className="production__second-wrapper__third-block__first-block__img"/>
                     </div>
                     <div className="production__second-wrapper__third-block__second-block">
-                        <img src={Icon29} alt="Icon29" loading="lazy" className="production__second-wrapper__third-block__second-block__img"/>
-                        <img src={Icon98} alt="Icon29" loading="lazy" className="production__second-wrapper__third-block__second-block__img"/>
+                        <img src="img/29.jpg" alt="Icon29" loading="lazy" className="production__second-wrapper__third-block__second-block__img"/>
+                        <img src="img/98.jpg" alt="Icon29" loading="lazy" className="production__second-wrapper__third-block__second-block__img"/>
                     </div>
                 </div>
                 <h3 className="production__second-wrapper__title">ENGINEERING SOLUTIONS</h3>

@@ -4,7 +4,6 @@ import Main from './components/Main';
 import NameBlock from './components/NameBlock';
 import PopUpPhone from './components/PopUpPhone';
 import TopButton from './components/TopButton';
-import BackGround from "./assets/img/bg.png";
 import "./style/style.scss";
 
 const About = lazy(() => import('./components/About'));
@@ -18,7 +17,7 @@ const SecondBlock = lazy(() => import('./components/SecondBlock'));
 const App = () => {
     return(
         <>
-            <img src={BackGround} alt="BackGround" className="bg" />
+            <img src="/img/bg.png" alt="BackGround" className="bg" />
             <Header/>
             <Main/>
             <NameBlock/>

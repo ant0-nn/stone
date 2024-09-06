@@ -1,7 +1,6 @@
 import {FirstNavBar, SecondNavBar} from "../assets/data/data.js";
 import { Link } from "react-scroll";
 import { ImWhatsapp } from "react-icons/im";
-import Logo from "../assets/img/white-logo.svg";
 
 const Footer = () => {
 
@@ -15,7 +14,7 @@ const Footer = () => {
             <div className="footer__container">
                 <div className="footer__wrapper">
                     <div className="footer__intro">
-                        <img src={Logo} alt="logo" className="footer__logo"/>
+                        <img src="/img/white-logo.svg" alt="logo" className="footer__logo"/>
                         <div className="footer__nav">
                             <ul className="footer__list">
                                 {FirstNavBar.map(item => (
@@ -45,7 +44,7 @@ const Footer = () => {
                     </div>
                     <div className="footer__info">
                         <span className="footer__data">E-mail: pik.rud@gmail.com</span>
-                        <span className="footer__data">Phone number: +3293958013</span>
+                        <span className="footer__data">Phone number: +39 3293958013</span>
                         <ImWhatsapp className="footer__whatsapp" onClick={handleWhatsAppClick}/>
                     </div>
                 </div>

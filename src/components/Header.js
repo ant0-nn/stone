@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import {FirstNavBar, SecondNavBar} from "../assets/data/data.js";
-import Logo from "../assets/img/black-logo.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
@@ -41,7 +40,7 @@ const Header = () => {
                             </li>
                         ))}
                     </ul>
-                    <img src={Logo} alt="logo" className="header__img" />
+                    <img src="/img/black-logo.png" alt="logo" className="header__img" />
                     <ul className="header__nav-bar">
                         {SecondNavBar.map(item => (
                             <li key={item.id}>
