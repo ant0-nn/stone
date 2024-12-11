@@ -67,9 +67,13 @@ const Location = () => {
                         Address
                     </span>
                 </div>
-                <p className="location__address">
-                77 camden street lower Dublin 2, D02 XE80
-                </p>
+                <a 
+                    href="https://www.google.com/maps/place/77+Camden+Street+Lower,+Dublin+2,+D02+XE80" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="location__address">
+                    77 Camden Street Lower, Dublin 2, D02 XE80
+                </a>
                 <div className="location__decor">
                     <BsFillTelephoneOutboundFill className="location__decor__icon"/>
                     <span className="location__decor__title">
@@ -77,17 +81,15 @@ const Location = () => {
                     </span>
                 </div>
                 <div className="location__number">
-                    <span>
-                        +353 (85) 202 1268
-                    </span>
-                    <span>
-                        +39 (32) 9395 8013
-                    </span>
-                    <span>
+                    <a href="tel:+353852021268">+353 (85) 202 1268</a>
+                    <a href="tel:+393293958013">+39 (32) 9395 8013</a>
+                    <a href="https://wa.me/380674052765" target="_blank" rel="noopener noreferrer">
                         +380 (67) 405 2765 (WhatsApp)
-                    </span>
+                    </a>
                 </div>
-                <span className="location__email">E-mail: starpass.it@gmail.com</span>
+                <span className="location__email">
+                    E-mail: <a href="mailto:starpass.it@gmail.com">starpass.it@gmail.com</a>
+                </span>
             </div>
         </section>
     )
