@@ -111,4 +111,33 @@
             margin-left: 0;
         }
     }
+    &__location {
+        margin-top: 20px;
+        @media (max-width: 586px) { 
+            max-width: 290px;
+        }
+        
+        &__title {
+            color: #fff;
+            font-family: Poppins;
+            font-size: 20px;
+            @media (max-width: 586px) { 
+                font-size: 14px;
+            }
+        }
+    }
+    &__address {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        &__icon {
+            color: #81D8D0;
+            font-size: 20px;
+        }
+        &__title {
+            color: #fff;
+            font-size: 20px;
+            font-family: Poppins;
+        }
+    }
 }

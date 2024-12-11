@@ -13,6 +13,7 @@ const HamamBlock = lazy(() => import('./components/Hamam'));
 const ProductionBlock = lazy(() => import('./components/Production'));
 const SaunaBlock = lazy(() => import('./components/Sauna'));
 const SecondBlock = lazy(() => import('./components/SecondBlock'));
+const Location = lazy(() => import('./components/Location'))
 
 const App = () => {
     return(
@@ -31,6 +32,7 @@ const App = () => {
                 <HamamBlock/>
                 <SaunaBlock/>
                 <ProductionBlock/>
+                <Location />
             </div>
             <TopButton/>
             <PopUpPhone/>
